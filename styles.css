@@ -1,0 +1,296 @@
+/* Resetear estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #1f78b6;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Sección Quiénes somos */
+.about-us {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-top: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about-box {
+    background-color: #fafafa;
+    padding: 20px;
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h2 {
+    color: #0e6b6e;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Estilos para la sección "Misión" */
+.section-mision {
+    background-color: #e4f7f2; /* Fondo azul claro similar al de "Quiénes somos" */
+    color: #333; /* Texto oscuro para un buen contraste */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px 20px; /* Espaciado interno */
+    text-align: center; /* Centrado del texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para profundidad */
+}
+
+.section-mision h1 {
+    font-size: 32px; /* Tamaño de fuente para el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+    text-transform: uppercase; /* Título en mayúsculas */
+    color: #027c74; /* Título con color verde para contraste */
+}
+
+.section-mision p {
+    font-size: 18px; /* Tamaño de texto principal */
+    line-height: 1.8; /* Interlineado para mayor legibilidad */
+    max-width: 800px; /* Ancho máximo para no estirar demasiado el texto */
+    margin: 0 auto; /* Centrado del texto */
+    text-align: justify; /* Justificado para un aspecto más ordenado */
+    padding: 0 15px; /* Espaciado lateral */
+}
+
+.section-mision a {
+    color: #027c74; /* Color verde para enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Transición de color cuando se pasa el ratón */
+}
+
+.section-mision a:hover {
+    color: #ff6600; /* Color naranja para los enlaces cuando se pasa el ratón */
+}
+
+/* Estilos para la sección "Visión" */
+.section-vision {
+    background-color: #e4f7f2; /* Fondo azul claro similar al de "Quiénes somos" */
+    color: #333; /* Texto oscuro para un buen contraste */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px 20px; /* Espaciado interno */
+    text-align: center; /* Centrado del texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para profundidad */
+}
+
+.section-vision h1 {
+    font-size: 32px; /* Tamaño de fuente para el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+    text-transform: uppercase; /* Título en mayúsculas */
+    color: #027c74; /* Título con color verde para contraste */
+}
+
+.section-vision p {
+    font-size: 18px; /* Tamaño de texto principal */
+    line-height: 1.8; /* Interlineado para mayor legibilidad */
+    max-width: 800px; /* Ancho máximo para no estirar demasiado el texto */
+    margin: 0 auto; /* Centrado del texto */
+    text-align: justify; /* Justificado para un aspecto más ordenado */
+    padding: 0 15px; /* Espaciado lateral */
+}
+
+.section-vision a {
+    color: #027c74; /* Color verde para enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Transición de color cuando se pasa el ratón */
+}
+
+.section-vision a:hover {
+    color: #ff6600; /* Color naranja para los enlaces cuando se pasa el ratón */
+}
